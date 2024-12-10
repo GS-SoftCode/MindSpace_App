@@ -48,7 +48,7 @@
     border-radius: 10px; /*Redondeado bordes del box*/
     background: linear-gradient(rgba(134, 100, 53, 1),rgba(89, 59, 52, 1));
     border: 1px;
-;
+
     font-size:medium;
     text-align: center; /*Alinear texto en box*/
     color: blanchedalmond;
@@ -104,3 +104,5 @@
 .log-in-button:active{
     background: linear-gradient(rgba(83, 89, 39, 1),rgba(132, 140, 66, 1)); 
 }
+
+/*Dimensiones totales de la pantalla: height = 645px */
