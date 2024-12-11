@@ -58,6 +58,41 @@
     background: linear-gradient(rgba(89, 59, 52, 1),rgba(134, 100, 53, 1)); 
 }
 
+#create-account-form{
+    box-sizing: border-box; /*Hace que las dimensiones de border, pathing y margin se incluyan dentro de las dimenciones del box*/
+    width: 100%;
+    padding:10px;/*Margen interno del box*/
+}
+
+#user-input{
+    margin:10px;/*Margen externo del box*/
+}
+
+#email-input{
+    margin:10px;/*Margen externo del box*/
+}
+
+#password-input{
+    margin:10px;/*Margen externo del box*/
+}
+
+.continue-create-account{
+    border-radius: 5px;
+    height: 30px;
+    background: linear-gradient(rgba(33, 112, 177, 1),rgba(14, 47, 75, 1));
+    color: blanchedalmond;
+    border:0px;
+    transition-duration:0s;/*Tiempo de transición a hover(Cuando cursos pasa encima) y activated(Cuando se activa)*/
+}
+
+.continue-create-account:hover{
+    background: rgba(33, 112, 177, 1);
+}
+
+.continue-create-account:active{
+    background: linear-gradient(rgba(14, 47, 75, 1),rgba(33, 112, 177, 1));
+}
+
 /*LOG-IN CONTAINER*/
 
 .log-in-container{
